@@ -1,4 +1,4 @@
-if (has('gui') || exists('g:loaded_scrollbar')) " only load for term version and if not loaded yet
+if (has('gui_running') || exists('g:loaded_scrollbar')) " only load for term version and if not loaded yet
 	finish
 endif
 
